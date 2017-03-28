@@ -226,7 +226,7 @@ $videotheque = array(
     'realisateur' => 'Alexandre Astier',
     'synopsis' => 'Deuxième moitié du ve siècle, île de Bretagne. Alors que l’Empire romain s’effondre et que le christianisme s’impose peu à peu face aux dieux païens, le royaume de Logres s’organise autour de son souverain, le roi Arthur, qui règne depuis le château de Kaamelott; entouré de ses fidèles chevaliers, il s’attelle à la mission que les dieux lui ont confiée : rechercher le Saint Graal.',
     'acteur' => array(
-      'Alexandre Astier','Lionel Astier','Franck Pitiot','Jean-Christophe Hebert','Jean Chambort',
+      'Alexandre Astier','Lionel Astier','Franck Pitiot','Jean-Christophe Hembert','Jacques Chambon',
       ),
     ),
   array(
