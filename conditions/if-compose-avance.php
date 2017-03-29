@@ -14,9 +14,9 @@ echo "<br>";
 echo "Mon chat est vivant, de couleur blanc et a les yeux Vert";
 echo "<br>";
 if($animal == "Chat" && $vivant && $couleur = "Blanc" && $yeux = "Vert"){
-  echo "Oui";
+	echo "Oui";
 }else{
-  echo "Non";
+	echo "Non";
 }
 echo "<br><br>";
 
@@ -26,7 +26,7 @@ echo "<br><br>";
 /*###############################################*/
 
 // Écrivez le test qui vérifie la question suivante : (utilisez un seul if)
-echo "1.Est-ce que c'est un animal fait l'affaire ? ";
+echo "1.Est-ce que c'est un animal qui fait l'affaire ? ";
 echo "<br>";
 echo "Je veux un chien ou chat couleur marron avec des yeux verts ";
 echo "<br>";
@@ -37,10 +37,10 @@ $couleur = "Marron";
 $yeux = "Vert";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if( 0 ){
-  echo 'Oui';
+if(( $animal =='Chat'||$animal =='Chien')&&($couleur=="Marron"&&$yeux =="Vert") ){
+	echo 'Oui';
 }else {
-  echo 'Non';
+	echo 'Non';
 }
 echo "<br><br>";
 
@@ -57,10 +57,10 @@ $couleur = "Blanc";
 $yeux = "Vert";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if( 0 ){
-  echo 'Oui';
+if(( $animal == 'Chat')&&($yeux == 'Vert')&&($couleur=='Blanc'||$couleur=='Marron')&&($vivant == true)){
+	echo 'Oui';
 }else {
-  echo 'Non';
+	echo 'Non';
 }
 echo "<br><br>";
 
@@ -68,19 +68,19 @@ echo "<br><br>";
 // Écrivez le test qui vérifie la question suivante : (utilisez un seul if)
 echo "3.Est ce que c'est un de mes animaux ? ";
 echo "<br>";
-echo "J'avais un chien de couleur noir avec des yeux bleus. J'ai un chat de couleur orange et des yeux bleus et un chien de couleur marron et des yeux bleus ";
+echo "J'avais un chien de couleur noir avec des yeux bleus. J'ai un chat de couleur orange et des yeux bleus et un chien de couleur marron et des yeux bleus";
 echo "<br>";
 
 $animal = "Chien";
 $vivant = false;
 $couleur = "Noir";
-$yeux = "Vert";
+$yeux = "Bleu";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if( 0 ){
-  echo 'Oui';
+if(($animal == "Chien" && $vivant == false && $couleur == 'Noir'&& $yeux == 'Bleu')||($animal == 'Chat'&& $couleur=='Orange'&& $vivant == true && $yeux == 'Bleu')||($animal == 'Chien'&& $vivant == true && $couleur == 'Marron' && $yeux == 'Bleu')){
+	echo 'Oui';
 }else {
-  echo 'Non';
+	echo 'Non';
 }
 echo "<br><br>";
 //----------------------------------------
